@@ -1,0 +1,75 @@
+/*Estilos de body*/
+body {
+    background-color:$color-1;
+}
+
+/*Estilos de footer*/
+footer {
+    background-color: $color-tercero;
+    color: $color-primero;
+    text-align: $align-center;
+    padding-top: $small-3;
+    padding-bottom: $small-2;
+    }
+
+#estilo-footer {
+    padding: 20px;
+    }
+    
+    
+
+/*Estilos de títulos*/
+h1 {
+    color: $color-primero;
+    font-family: $font-family-2;
+    font-style: $font-style-2;
+    text-align: $align-center;
+    font-size: 50px;
+    margin-bottom: 25px;
+    padding-top: 60px; 
+}
+
+.estilo-h1 {
+    @include estiloh1;
+}
+
+h2 {
+    color: $color-primero; 
+    background-color: $color-6;
+}
+
+.estilo-h2 {
+    @include estiloh2;
+}
+
+a {
+    text-decoration: none;
+    color:darkviolet;
+    font-size:x-large;
+    list-style-type: none;   
+}
+
+.a-especial {
+    color: black;
+    font-size:large;  
+}
+
+.a-especial:hover {
+    color: black;
+    font-size:large;
+    font-style: italic;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;  
+}
+
+.header-pages {
+    background-color:rgb(218, 196, 196);     
+}
+
+/*Estilo del header*/
+#arriba {
+    text-align: $align-center;
+    padding-top: $small-2;   
+}
